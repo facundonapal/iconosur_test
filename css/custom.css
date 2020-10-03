@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "MYRIADPRO-BOLD";
+    src: url(../assets/fonts/MYRIADPRO-BOLD.OTF)
+}
+
+.main-section {
+    background-color: #e6e6ed;
+    width: 800px;
+    margin: 0 auto;
+    padding-right: 5px;
+    padding-top: 60px;
+}
+
+.section {
+    margin: 50px 40px;
+    display: grid;
+    grid-gap: 0.01rem;
+    grid-template-columns: 360px 360px;
+    grid-template-rows: 320px;
+}
+
+.section-title {
+    margin-left: 40px;
+    font-size: 36px;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+    width: 320px;
+    height: auto;
+}
+
+.section-title {
+    font-family: "MYRIADPRO-BOLD";
+}
