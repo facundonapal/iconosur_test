@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-size: 20px;
 }
 
 @font-face {
@@ -8,12 +9,22 @@
     src: url(../assets/fonts/MYRIADPRO-BOLD.OTF)
 }
 
+@font-face {
+    font-family: "Lato-Black";
+    src: url(../assets/fonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(../assets/fonts/Oswald.ttf);
+}
+
 .main-section {
     background-color: #e6e6ed;
     width: 800px;
+    height: 1105px;
     margin: 0 auto;
-    padding-right: 5px;
-    padding-top: 60px;
+    padding: 60px 5px 0 0;
 }
 
 .section {
@@ -27,6 +38,7 @@
 .section-title {
     margin-left: 40px;
     font-size: 36px;
+    font-family: "MYRIADPRO-BOLD";
 }
 
 img {
@@ -36,6 +48,78 @@ img {
     height: auto;
 }
 
-.section-title {
-    font-family: "MYRIADPRO-BOLD";
+p {
+    margin: 10px 0;
+}
+
+.content-card {
+    width: 320px;
+    height: 484px;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+.text-line {
+    background: #f9f900;
+    font-family: "Lato-black";
+    font-size: 23.5px;
+    margin: 15% 5%;
+    padding: 0 4px;
+}
+
+.sep {
+    height: 1px;
+}
+
+.text-box {
+    width: 100%;
+    position: absolute;
+    bottom: 15.8%;
+    transform: scaleX(1.15);
+    margin: 0 0 13px 31px;
+}
+
+.text-box::before {
+    content: "SHOW";
+    position: absolute;
+    bottom: 5.95rem;
+    left: 3.15rem;
+    background-color: #000;
+    color: #fff;
+    padding: 1px 5px;
+    font-family: "Oswald";
+    letter-spacing: 0.5px;
+    font-size: 0.55rem;
+}
+
+.text-box-second {
+    bottom: 4.5px !important;
+    margin: 0 0 13px 18px;
+}
+
+.text-box-second::before {
+    left: .8rem;
+    font-size: .6rem;
+}
+
+.hijo {
+    background: #f9f900;
+    margin: 1.9px 0;
+    font-family: "Lato-black";
+    font-size: 23.5px;
+    margin-left: 5%;
+}
+
+.button-card {
+    position: absolute;
+    top: 56.15%;
+    right: 0.05%;
+    background-color: #10d6bb;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    padding: 8px 0 0 8px;
 }
