@@ -27,18 +27,18 @@
     padding: 60px 5px 0 0;
 }
 
-.section {
-    margin: 50px 40px;
-    display: grid;
-    grid-gap: 0.01rem;
-    grid-template-columns: 360px 360px;
-    grid-template-rows: 320px;
-}
-
 .section-title {
     margin-left: 40px;
     font-size: 36px;
     font-family: "MYRIADPRO-BOLD";
+}
+
+.section {
+    margin: 30px 40px 50px 40px;
+    display: grid;
+    grid-gap: 0.01rem;
+    grid-template-columns: 360px 360px;
+    grid-template-rows: 320px;
 }
 
 img {
@@ -48,34 +48,10 @@ img {
     height: auto;
 }
 
-p {
-    margin: 10px 0;
-}
-
-.content-card {
-    width: 320px;
-    height: 484px;
-    background: #fff;
-    position: relative;
-    display: inline-block;
-}
-
-.text-line {
-    background: #f9f900;
-    font-family: "Lato-black";
-    font-size: 23.5px;
-    margin: 15% 5%;
-    padding: 0 4px;
-}
-
-.sep {
-    height: 1px;
-}
-
 .text-box {
     width: 100%;
     position: absolute;
-    bottom: 15.8%;
+    bottom: 19.5%;
     transform: scaleX(1.15);
     margin: 0 0 13px 31px;
 }
@@ -93,6 +69,18 @@ p {
     font-size: 0.55rem;
 }
 
+.text-line {
+    background: #f9f900;
+    font-family: "Lato-black";
+    font-size: 23.5px;
+    margin: 15% 5%;
+    padding: 0 4px;
+}
+
+.sep {
+    height: 1px;
+}
+
 .text-box-second {
     bottom: 4.5px !important;
     margin: 0 0 13px 18px;
@@ -103,12 +91,12 @@ p {
     font-size: .6rem;
 }
 
-.hijo {
-    background: #f9f900;
-    margin: 1.9px 0;
-    font-family: "Lato-black";
-    font-size: 23.5px;
-    margin-left: 5%;
+.content-card {
+    width: 320px;
+    height: 484px;
+    background: #fff;
+    position: relative;
+    display: inline-block;
 }
 
 .button-card {
