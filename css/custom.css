@@ -27,6 +27,19 @@
     padding: 60px 5px 0 0;
 }
 
+.jumbotron{
+    background-color:#ffffff;
+    border:1px solid #AAA;
+    border-bottom:3px solid #BBB;
+    padding:0px;
+    margin-top:4em;
+    overflow:hidden;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);    
+}
+
 .section-title {
     margin-left: 40px;
     font-size: 36px;
@@ -110,4 +123,8 @@ img {
     width: 40px;
     height: 40px;
     padding: 8px 0 0 8px;
+}
+
+.margin {
+    margin: 0 !important;
 }
